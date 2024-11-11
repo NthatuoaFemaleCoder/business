@@ -1,0 +1,1245 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background: #0077cc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Menu Styling */
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0077cc;
+}
+
+.nav ul li {
+    position: relative;
+}
+
+.nav ul li a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav ul li:hover > a {
+    background-color: #005fa3;
+}
+
+/* Dropdown Menu Styling */
+.nav .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0077cc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #005fa3;
+}
+
+/* Show dropdown on hover */
+.nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Food Grid Styling */
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.food {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    color: #0077cc;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.food:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+    color: #fff;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Team Grid Styling */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Team Member Card Styling */
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Photo Styling */
+.team-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    max-width: 150px;
+}
+
+/* Text Styling in Team Member Cards */
+.team-member h3 {
+    font-size: 1.5em;
+    color: #0077cc;
+    margin: 10px 0 5px;
+}
+
+.team-member .position {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-member .bio {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/*our story page style*/
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Back Menu Styling */
+.back-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+}
+
+.back-menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.back-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Story Header Styling */
+.story-header {
+    background: linear-gradient(rgba(0, 119, 204, 0.7), rgba(0, 119, 204, 0.7)), url('images/restaurant.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.story-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.story-header p {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+/* Intro Section Styling */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h2 {
+    color: #0077cc;
+    font-size: 2em;
+}
+
+.intro p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Timeline Section Styling */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.timeline-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.timeline-item h3 {
+    color: #0077cc;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Timeline Item Decorative Dot */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    width: 12px;
+    height: 12px;
+    background-color: #0077cc;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+/* Mission and Vision Section Styling */
+.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+}
+
+.mission, .vision {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+    min-width: 280px;
+}
+
+.mission h2, .vision h2 {
+    color: #0077cc;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.mission p, .vision p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+/*services page styles*/
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Back Menu Styling */
+.back-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+}
+
+.back-menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.back-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Service Header Styling */
+.service-header {
+    background: linear-gradient(rgba(0, 119, 204, 0.7), rgba(0, 119, 204, 0.7)), url('images/restaurant.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.service-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.service-header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Services Grid Styling */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Service Card Styling */
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Icon Styling */
+.service-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Text Styling in Service Cards */
+.service-card h3 {
+    font-size: 1.5em;
+    color: #0077cc;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+/* catering page styles*/
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Back Menu Styling */
+.back-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+}
+
+.back-menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.back-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Header with Parallax Effect */
+.catering-header {
+    background: linear-gradient(rgba(0, 119, 204, 0.5), rgba(0, 119, 204, 0.5)), url('images/catering.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.catering-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.catering-header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+/* Catering Description Section */
+.catering-description {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Catering Services Section */
+.catering-services {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.catering-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.catering-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.catering-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.catering-card h3 {
+    color: #0077cc;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.catering-card p {
+    padding: 0 15px 15px;
+    color: #555;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f0f4f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+/* Individual Testimonial Styling */
+.testimonial {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    gap: 15px;
+    transition: transform 0.3s;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+
+/* Client Photo Styling */
+.client-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.client-photo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Testimonial Text Styling */
+.testimonial-text {
+    text-align: left;
+}
+
+.testimonial-text p:first-child {
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial-text p:last-child {
+    font-weight: bold;
+    color: #0077cc;
+    margin-top: 5px;
+}
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #0077cc;
+    color: #fff;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #0077cc;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+
+/*delivery page styles*/
+
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Back Menu Styling */
+.back-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+}
+
+.back-menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.back-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Header with Decorative Background */
+.delivery-header {
+    background: linear-gradient(rgba(0, 119, 204, 0.5), rgba(0, 119, 204, 0.5)), url('images/delivery-background.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.delivery-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.delivery-header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+/* Delivery Information Section */
+.delivery-info {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.delivery-option {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.delivery-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.delivery-option img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.delivery-option h3 {
+    color: #0077cc;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Coverage Area Section */
+.coverage-area {
+    background-color: #f0f4f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.coverage-area h2 {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.coverage-area .map-placeholder {
+    background-color: #ddd;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #0077cc;
+    color: #fff;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #0077cc;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+/*map*/
+.coverage-area {
+    background-color: #f0f4f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.coverage-area h2 {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.back-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+}
+
+.back-menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.about-hero {
+    background: linear-gradient(rgba(0, 119, 204, 0.7), rgba(0, 119, 204, 0.7)), url('images/about-background.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.about-hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.about-hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Our Story Section */
+.our-story {
+    background-color: #f7f8fc;
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.our-story h2 {
+    font-size: 2.5em;
+    color: #0077cc;
+    margin-bottom: 30px;
+}
+
+.story-card {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Core Values Section */
+.core-values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.value {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.value img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.value:hover {
+    transform: scale(1.05);
+}
+
+/* Team Section */
+.meet-team {
+    background-color: #f7f8fc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.meet-team h2 {
+    font-size: 2.5em;
+    color: #0077cc;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+/* Call-to-Action */
+.cta-about {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #0077cc;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+}
+
+/* Keyframe Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.back-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+}
+
+.back-menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Header Section */
+.contact-header {
+    background: linear-gradient(rgba(0, 119, 204, 0.7), rgba(0, 119, 204, 0.7)), url('images/contact-background.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.contact-header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    background-color: #f7f8fc;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form-section h2 {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #005fa3;
+}
+
+/* Contact Information Section */
+.contact-info {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.contact-card {
+    display: inline-block;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.contact-card img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Map Section */
+.map-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.map-section h2 {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+    color: #fff;
+}
+
+/* Keyframe Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.back-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+}
+
+.back-menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Header Section */
+.order-header {
+    background: linear-gradient(rgba(0, 119, 204, 0.7), rgba(0, 119, 204, 0.7)), url('images/order-background.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.order-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.order-header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Order Form Section */
+.order-form-section {
+    background-color: #f7f8fc;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order-form-section h2 {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.order-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form input[type="time"],
+.order-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-form button {
+    padding: 12px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.order-form button:hover {
+    background-color: #005fa3;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077cc;
+    color: #fff;
+}
+
+/* Keyframe Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
